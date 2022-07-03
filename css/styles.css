@@ -1,0 +1,90 @@
+.alert {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.success {
+  color: green;
+}
+
+.warning {
+  color: orange;
+}
+
+.error {
+  color: red;
+}
+
+.social-links a {
+  color: blue;
+  text-decoration: none;
+}
+
+.menu > li {
+  border: 1px solid tomato;
+}
+
+/* Незвичне форматування фігурних дужок - це нормально */
+a[href="https://htmlreference.io"]
+{
+  color: teal;
+}
+
+a[href="https://cssreference.io"]
+{
+  color: orange;
+}
+
+a[href="https://www.youtube.com"]
+{
+  color: tomato;
+}
+
+.link {
+  color: teal;
+}
+
+.link:hover {
+  color: tomato;
+}
+
+.social-links .link {
+  color: teal;
+}
+
+/* Два і більше селекторів розділяються комою */
+.social-links .link:hover,
+.social-links .link:focus {
+  color: orange;
+}
+.social-links .link:active {
+  color: red;
+}
+.social-links .link:visited {
+    color: green;
+  }
+
+  .schedule-body > tr:hover {
+    background-color: tomato;
+    color: white;
+  }
+  
+  /* Оформлення таблиці */
+  .schedule {
+    border-collapse: collapse;
+  }
+  
+  .schedule th,
+  .schedule td {
+    padding: 8px;
+    border: 1px solid #212121;
+  }
+
+  .text {
+    background-color: tomato;
+    color: white;
+  }
+
+  .post {
+    color: green;
+  }
